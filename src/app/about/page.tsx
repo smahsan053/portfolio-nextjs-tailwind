@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <BackgroundLines className="flex items-start justify-center w-full flex-col px-36">
+    <BackgroundLines className="flex md:items-start items-center justify-start w-full flex-col md:px-36 px-10 pt-24 text-center md:text-start">
       <h1 className="text-lg tracking-widest text-blue-200">A B O U T</h1>
       <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:text-blue-200 text-2xl md:text-4xl lg:text-6xl font-sans py-2 md:py-10 relative z-20 font-extrabold tracking-tight whitespace-pre-line ">
         a frontend developer with affinity for design, intuitive user experience
         and pixel-perfect user interfaces
       </h2>
-      <div className="flex justify-center flex-row gap-20 text-lg text-blue-200 tracking-wider leading-relaxed">
+      <div className="flex justify-center md:flex-row flex-col md:gap-20 gap-8 text-lg text-blue-200 tracking-wider leading-relaxed">
         <div className="flex flex-1 flex-col gap-8">
           <p>
             Results-driven Industrial & Manufacturing Engineer with 3 years of
